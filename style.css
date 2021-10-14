@@ -1,0 +1,50 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+#backColorInfo{
+    background-color: black;
+    color: white;
+    line-height: 2rem;
+    padding: 0 1rem 0 1rem;
+    border: 0.1rem solid white;
+}
+
+.btn{
+    margin-top: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+input{
+    margin-top: 2rem;
+}
+
+.black{    margin-top: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.black:hover{
+    background-color: white;
+    color: black;
+}
